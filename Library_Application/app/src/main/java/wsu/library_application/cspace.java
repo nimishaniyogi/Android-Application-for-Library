@@ -30,7 +30,7 @@ public class cspace extends AppCompatActivity {
         startActivity(services);
     }
     public void gotostaffdetails(View view){
-        Intent staff = new Intent(Intent.ACTION_VIEW, Uri.parse("));
+        Intent staff = new Intent(Intent.ACTION_VIEW, Uri.parse("http://libresources.wichita.edu/c.php?g=120099&p=782271"));
         startActivity(staff);
 
     }
