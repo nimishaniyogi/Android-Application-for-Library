@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:background="#b0c1aa"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_marginTop="5dp"
+                android:text="Services provided in Library"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:baselineAligned="true">
+
+                <Button
+                    android:layout_width="172dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#FEDF00"
+                    android:clickable="true"
+                    android:onClick="gotocatalog"
+                    android:text="Catalog"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#FEDF00"
+                    android:clickable="true"
+                    android:onClick="gotocspace"
+                    android:padding="10dp"
+                    android:text="C-Space"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:padding="5dp"
+                    android:onClick="community_centre"
+                    android:background="#FEDF00"
+                    android:text="CRC"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:padding="5dp"
+                    android:clickable="true"
+                    android:background="#FEDF00"
+                    android:onClick="gotocollection"
+                    android:text="CAD"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#FEDF00"
+                    android:clickable="true"
+                    android:onClick="music"
+                    android:padding="5dp"
+                    android:text="Music            Library"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#FEDF00"
+                    android:clickable="true"
+                    android:onClick="chem_library"
+                    android:padding="4dp"
+                    android:text="Chemistry Library"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:padding="5dp"
+                    android:onClick="study_room"
+                    android:text="Study Room"
+                    android:background="#FEDF00"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="seminar_room"
+                    android:padding="5dp"
+                    android:text="Seminar Room"
+                    android:layout_marginStart="10dp"
+                    android:background="#FEDF00"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Interlibrary Loan"
+                    android:textColor="#000000"
+                    android:clickable="true"
+                    android:onClick="gotoloan"
+                    android:background="#FEDF00"
+                    android:textSize="20dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#FEDF00"
+                    android:clickable="true"
+                    android:onClick="gotolibhours"
+                    android:padding="5dp"
+                    android:text="Library           Hours"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Computer Availability"
+                    android:textColor="#000000"
+                    android:clickable="true"
+                    android:onClick="gotocomp"
+                    android:background="#FEDF00"
+                    android:textSize="20dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:layout_marginStart="10dp"
+                    android:background="#FEDF00"
+                    android:onClick="gotoevents"
+                    android:padding="5dp"
+                    android:text="Events in Library"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="gotosearch"
+                    android:background="#FEDF00"
+                    android:text="smart Search"
+
+                    android:textColor="#000000"
+                    android:clickable="true"
+
+                    android:textSize="20dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:layout_marginStart="10dp"
+                    android:background="#FEDF00"
+
+                    android:padding="5dp"
+                    android:onClick="gotoLib_guides"
+
+                    android:text="Lib Guides"
+
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="gotocirculation"
+                    android:background="#FEDF00"
+                    android:text="Circulation Desk"
+                    android:textColor="#000000"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#FEDF00"
+                    android:clickable="true"
+                    android:onClick="gotodirectory"
+                    android:padding="5dp"
+                    android:text="Staff            Details"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:layout_marginStart="50dp"
+            android:onClick="more_options"
+            android:text="And More...."
+            android:textColor="#000000"
+            android:background="#FEDF00"
+            android:textSize="20dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

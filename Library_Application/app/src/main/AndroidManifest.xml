@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wsu.library_application">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LandingPageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".popular_links" />
+        <activity android:name=".Resources" />
+        <activity android:name=".electronic_book" />
+        <activity android:name=".more_resources" />
+        <activity android:name=".journals" />
+        <activity android:name=".cspace" />
+        <activity android:name=".cspace_services" />
+        <activity android:name=".BookFinder" />
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".monday_workshop" />
+        <activity android:name=".tech_tuesday" />
+        <activity android:name=".Multi_os" />
+        <activity android:name=".media_zone" />
+        <activity android:name=".advance_zone" />
+        <activity android:name=".sound_booth4" />
+        <activity android:name=".print_scan" />
+        <activity android:name=".Generalpolicy" />
+        <activity android:name=".color_print" />
+        <activity android:name=".Timings" />
+        <activity android:name=".about_lib" />
+        <activity android:name=".lib_resources" />
+        <activity android:name=".Help_research" />
+        <activity android:name=".Interloan" />
+        <activity android:name=".events" />
+        <activity android:name=".renew_items" />
+        <activity android:name=".Circulation" />
+        <activity android:name=".off_campus_users" />
+        <activity android:name=".toolbox"></activity>
+    </application>
+
+</manifest>

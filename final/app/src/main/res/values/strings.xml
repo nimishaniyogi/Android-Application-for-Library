@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Library App</string>
+    <string name="CSpace"> The Creation Space (C-Space) is an area for collaboration and experimentation where WSU students, faculty, and staff can come together to learn new things and work with advanced media technologies on a variety of projects. C-Space promotes a superior user experience through innovative services that support the educational, cultural, and research needs of the University and its community partners.
+        C-Space is located on the first floor of Ablah Library!
+    Interested in finding out more? Ask at the C-Space Help Desk or at Circulation.
+    </string>
+    <string name="advance_development_zone">Advance Development Zone</string>
+    <string name="hours">Working Hours</string>
+    <string name="about_us">Wichita State University Libraries is a research library system located on the University main campus in Wichita.
+    </string>
+
+
+</resources>
